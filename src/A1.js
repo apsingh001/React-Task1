@@ -4,7 +4,7 @@ import React from 'react';
 function AA(props){
     const [ob,setOb]=React.useState(props.obj);
     const [col,setCol]=React.useState("black");
-    let ap="asss";
+    let ap="aa";
     if(ob.id%2===0){
         ap="white";
     }
