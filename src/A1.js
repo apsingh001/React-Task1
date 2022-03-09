@@ -45,7 +45,6 @@ function AA(props){
             </div>
             </div>
     }
-    console.log(names);
     if(dccc===1){
         return (
             
