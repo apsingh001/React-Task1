@@ -34,11 +34,11 @@ function AA(props){
     }
     if(dcc===1){
         return <div class="aps">
-            <div><input  type="text" id="i1" name="a111" onChange={event=>setNames(event.target.value)}></input></div>
-            <div><input  type="text" id="i2" onChange={event=>setPhones(event.target.value)}></input></div>
-            <div><input  type="text" id="i3" onChange={event=>setEmails(event.target.value)}></input></div>
-            <div><input  type="text" id="i4" onChange={event=>setLats(event.target.value)}></input></div>
-            <div><input  type="text" id="i5" onChange={event=>setLongs(event.target.value)}></input></div>
+            <div><input  type="text" id="i1" value={names} onChange={event=>setNames(event.target.value)}></input></div>
+            <div><input  type="text" id="i2" value={phones} onChange={event=>setPhones(event.target.value)}></input></div>
+            <div><input  type="text" id="i3" value={emails} onChange={event=>setEmails(event.target.value)}></input></div>
+            <div><input  type="text" id="i4" value={lats} onChange={event=>setLats(event.target.value)}></input></div>
+            <div><input  type="text" id="i5" value={longs} onChange={event=>setLongs(event.target.value)}></input></div>
             <div>
             <span><button type="button" onClick={function(){setDccc(1);setDcc(0);}}>Done</button></span> 
 
