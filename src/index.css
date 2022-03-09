@@ -29,3 +29,17 @@ body{
     padding:1%;
   
 }
+
+#undo{
+    width:100%;
+    font-size: 125%;
+    text-align: center;
+    background-color: lightyellow;
+    height:200%;
+}
+
+#undo1{
+    width:20%;
+    font-size: 100%;
+    background-color: lightblue;
+}
