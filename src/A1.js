@@ -47,7 +47,6 @@ function AA(props){
     }
     console.log(names);
     if(dccc===1){
-        // setDccc(0);
         return (
             
             <div class="aps" style={style}>
